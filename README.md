@@ -16,5 +16,5 @@ helm repo update
 * [alarmserver](https://github.com/nolant/DSCAlarm)
 
   ```bash
-  helm install my-release nolant/alarmserver
+  helm install alarmserver nolant/alarmserver
   ```
