@@ -20,8 +20,8 @@ service:
     ports:
       http:
         enabled: true
-        protocol: http
         port: 8111
+  #  type: LoadBalancer
   # tpi:
   #   enabled: true
   #   type: ClusterIP
