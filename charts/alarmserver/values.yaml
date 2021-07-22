@@ -22,13 +22,13 @@ service:
         enabled: true
         protocol: http
         port: 8111
-  tpi:
-    enabled: true
-    type: ClusterIP
-    ports:
-        enabled: true
-        protocol: TCP
-        port: 4025
+  # tpi:
+  #   enabled: true
+  #   type: ClusterIP
+  #   ports:
+  #       enabled: true
+  #       protocol: TCP
+  #       port: 4025
 
 # -- alarmserver.cfg configuration
 # @default -- string
