@@ -15,6 +15,21 @@ strategy:
 
 env: {}
 
+service:
+  main:
+    ports:
+      http:
+        enabled: true
+        protocol: http
+        port: 8111
+  tpi:
+    enabled: true
+    type: ClusterIP
+    ports:
+        enabled: true
+        protocol: TCP
+        port: 4025
+
 # -- alarmserver.cfg configuration
 # @default -- string
 config: |
@@ -131,7 +146,3 @@ config: |
   [zone5]
   name=DSC Zone 05 Smoke Detector
   type=smoke
-
-service:
-  port:
-    port: 4025
