@@ -3,6 +3,28 @@ entries:
   alarmserver:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2021-07-22T01:51:04.173346071Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 3.3.0
+    description: AlarmServer for Samsung SmartThings
+    digest: 2f2485ef14287cbf2171a91989251cea1d81c8312e623c7f22f95f7a0b447117
+    home: https://github.com/NolanT/DSCAlarm
+    keywords:
+    - smartthings
+    - dsc
+    maintainers:
+    - name: NolanT
+    name: alarmserver
+    sources:
+    - https://github.com/rtorchia/DSCAlarm
+    - https://github.com/k8s-at-home/charts
+    urls:
+    - https://github.com/NolanT/charts/releases/download/alarmserver-1.1.0/alarmserver-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2021-07-18T05:04:43.756076985Z"
     dependencies:
     - name: common
@@ -23,4 +45,4 @@ entries:
     urls:
     - https://github.com/NolanT/charts/releases/download/alarmserver-1.0.0/alarmserver-1.0.0.tgz
     version: 1.0.0
-generated: "2021-07-18T05:04:43.756082185Z"
+generated: "2021-07-22T01:51:04.173366972Z"
