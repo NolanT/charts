@@ -6,9 +6,10 @@
 #
 
 image:
-  repository: nolant/alarmserver
+  repository: "ghcr.io/nolant/dscalarm@sha256"
   pullPolicy: IfNotPresent
-  tag: latest
+  tag: "8f654897c35291817b98f365a36a37079d6a3e78c0facd4c4c84b247f928b991"
+
 
 strategy:
   type: Recreate
@@ -21,14 +22,6 @@ service:
       http:
         enabled: true
         port: 8111
-  #  type: LoadBalancer
-  # tpi:
-  #   enabled: true
-  #   type: ClusterIP
-  #   ports:
-  #       enabled: true
-  #       protocol: TCP
-  #       port: 4025
 
 # -- alarmserver.cfg configuration
 # @default -- string
